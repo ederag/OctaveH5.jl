@@ -1,0 +1,25 @@
+name = "OctaveH5Reader"
+uuid = "a7f2c31c-968a-41f8-b289-3742aa14d81d"
+authors = ["ederag <edera@gmx.fr> and contributors"]
+version = "0.6"
+
+[deps]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+[compat]
+julia = "1.9"
+HDF5 = "0.16, 0.17"
+StructArrays = "0.6"
+
+[extras]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PlutoLinks = "0ff47ea0-7a50-410d-8455-4348d5de0420"
+PlutoTest = "cb4044da-4d16-4ffa-a6a3-8cad7f73ebdc"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Documenter", "InteractiveUtils", "Markdown", "Pkg", "PlutoLinks", "PlutoTest", "Test"]
