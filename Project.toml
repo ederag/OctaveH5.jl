@@ -8,9 +8,9 @@ HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
 [compat]
-julia = "1.9"
+julia = "1.10, 1.11"
 HDF5 = "0.16, 0.17"
-StructArrays = "0.6"
+StructArrays = "0.6, 0.7"
 
 [extras]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
