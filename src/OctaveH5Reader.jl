@@ -131,6 +131,6 @@ _subgroup_basename(subgroup::HDF5.Group) = last(split(HDF5.name(subgroup), '/'))
 
 
 # This would look better than OctaveH5Reader.oh5_read for people who prefer to qualify calls.
-OctaveH5Reader.read = oh5_read
+read = oh5_read
 
 end  # module OctaveH5Reader
